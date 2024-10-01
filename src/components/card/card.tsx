@@ -4,7 +4,7 @@ import Icon from './icon';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-import profilePic from '/public/img/profilepicture.webp';
+import image from '/public/img/image.webp';
 
 export default function Card() {
     return (
@@ -13,7 +13,7 @@ export default function Card() {
                 <div className="flex flex-col items-center">
                     <Image
                         className="focus:outline-none rounded-full"
-                        src={profilePic}
+                        src={image}
                         alt="man avatar"
                         width={180}
                         height={180}
