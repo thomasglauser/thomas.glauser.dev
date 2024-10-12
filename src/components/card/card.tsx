@@ -14,9 +14,11 @@ export default function Card() {
                     <Image
                         className="focus:outline-none rounded-full"
                         src={image}
-                        alt="man avatar"
+                        alt="Thomas Glauser"
                         width={180}
                         height={180}
+                        placeholder="blur"
+                        priority={true}
                     />
                     <p className="focus:outline-none mt-8 text-xl font-semibold text-center text-slate-900">
                         Thomas Glauser
