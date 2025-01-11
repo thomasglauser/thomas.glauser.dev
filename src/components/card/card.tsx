@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Icon from './icon';
 
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFire } from '@fortawesome/free-solid-svg-icons';
 
 import image from '/public/img/image.webp';
 
@@ -40,6 +40,9 @@ export default function Card() {
                 </div>
                 <div className="ml-12">
                     <Icon url="mailto:thomas@glauser.dev" icon={faEnvelope} />
+                </div>
+                <div className="ml-12">
+                    <Icon url="https://www.gasschutzkorps.ch/" icon={faFire} />
                 </div>
             </div>
         </div>
