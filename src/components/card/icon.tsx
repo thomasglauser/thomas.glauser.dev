@@ -12,7 +12,8 @@ export default function Icon(props: IconProps) {
             <a href={props.url} rel="noopener noreferrer" target="_blank">
                 <FontAwesomeIcon
                     icon={props.icon}
-                    className="text-slate-900 h-6"
+                    className="text-slate-900"
+                    size="xl"
                 />
             </a>
         </div>
