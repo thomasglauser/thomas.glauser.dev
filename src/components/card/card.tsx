@@ -12,7 +12,7 @@ export default function Card() {
             <div className="w-full flex items-center justify-center">
                 <div className="flex flex-col items-center">
                     <Image
-                        className="focus:outline-none rounded-full"
+                        className="focus:outline-hidden rounded-full"
                         src={image}
                         alt="Thomas Glauser"
                         width={180}
@@ -20,7 +20,7 @@ export default function Card() {
                         placeholder="blur"
                         priority={true}
                     />
-                    <p className="focus:outline-none mt-8 text-xl font-semibold text-center text-slate-900">
+                    <p className="focus:outline-hidden mt-8 text-xl font-semibold text-center text-slate-900">
                         Thomas Glauser
                     </p>
                 </div>
